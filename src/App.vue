@@ -23,7 +23,10 @@ import { RouterLink, RouterView } from "vue-router";
             <RouterLink class="nav-link" aria-current="page" to="/">Home</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/api">Features</RouterLink>
+            <RouterLink class="nav-link" to="/api">Rick y morty</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/sw-api">Star Wars</RouterLink>
           </li>
         </ul>
       </div>
