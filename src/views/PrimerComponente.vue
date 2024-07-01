@@ -13,10 +13,12 @@
     <ul>
       <li v-for="(item, indice) in colores" :key="indice">{{ item }}</li>
     </ul>
+    <RouterLink class="btn btn-primary" to="/api">ir a API</RouterLink>
   </div>
 </template>
 <script setup>
 import { ref } from "vue";
+import { RouterLink } from "vue-router";
 /*export default {
     setup() {
         const contador = ref(0);
